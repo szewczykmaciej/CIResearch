@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode6.4
 xcode_project: CIResearch.xcodeproj
-xcode_scheme: CIResearchTests
+xcode_scheme: CIResearch
