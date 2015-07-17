@@ -4,8 +4,12 @@
     <entity name="Entity1" representedClassName="Entity1" syncable="YES">
         <attribute name="attribute1" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Entity2" syncable="YES">
+        <attribute name="attribute2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Entity1" positionX="-63" positionY="-18" width="128" height="60"/>
         <element name="Entity" positionX="-45" positionY="9" width="128" height="45"/>
+        <element name="Entity2" positionX="-27" positionY="27" width="128" height="60"/>
     </elements>
 </model>
