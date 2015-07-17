@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Entity1.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    Entity1 *entity1 = [NSEntityDescription insertNewObjectForEntityForName:@"Entity1" inManagedObjectContext:self.managedObjectContext];
+    [self.managedObjectContext save:nil];
+    
     return YES;
 }
 

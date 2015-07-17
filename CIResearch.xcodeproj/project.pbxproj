@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54AF88FC1B593E03004BE586 /* Entity1.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AF88FB1B593E03004BE586 /* Entity1.m */; };
 		54B7C0BD1B56551D00C485C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C0BC1B56551D00C485C6 /* main.m */; };
 		54B7C0C01B56551D00C485C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C0BF1B56551D00C485C6 /* AppDelegate.m */; };
 		54B7C0C31B56551D00C485C6 /* CIResearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54B7C0C11B56551D00C485C6 /* CIResearch.xcdatamodeld */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54AF88FA1B593E03004BE586 /* Entity1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity1.h; sourceTree = "<group>"; };
+		54AF88FB1B593E03004BE586 /* Entity1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity1.m; sourceTree = "<group>"; };
 		54B7C0B71B56551D00C485C6 /* CIResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B7C0BB1B56551D00C485C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B7C0BC1B56551D00C485C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 		54B7C0B91B56551D00C485C6 /* CIResearch */ = {
 			isa = PBXGroup;
 			children = (
+				54AF88FA1B593E03004BE586 /* Entity1.h */,
+				54AF88FB1B593E03004BE586 /* Entity1.m */,
 				54B7C0BE1B56551D00C485C6 /* AppDelegate.h */,
 				54B7C0BF1B56551D00C485C6 /* AppDelegate.m */,
 				54B7C0C41B56551D00C485C6 /* ViewController.h */,
@@ -284,6 +289,7 @@
 			files = (
 				54B7C0C01B56551D00C485C6 /* AppDelegate.m in Sources */,
 				54B7C0C31B56551D00C485C6 /* CIResearch.xcdatamodeld in Sources */,
+				54AF88FC1B593E03004BE586 /* Entity1.m in Sources */,
 				54B7C0C61B56551D00C485C6 /* ViewController.m in Sources */,
 				54B7C0BD1B56551D00C485C6 /* main.m in Sources */,
 			);
