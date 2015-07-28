@@ -1,4 +1,5 @@
 dependencies:
   pre:
-    - virt-what
+    - dmesg | head -1
     - dmidecode
+    - cat /proc/version
