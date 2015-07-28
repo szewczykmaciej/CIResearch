@@ -1,5 +1,7 @@
 dependencies:
   pre:
     - dmesg | head -1
-    - dmidecode
+    - uname -a
+    - cat /etc/issue
     - cat /proc/version
+    - distro
