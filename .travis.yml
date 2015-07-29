@@ -1,4 +1,5 @@
 before_install:
+- dmidecode | grep -i vmware
 - dmesg | head -1
 - uname -a
 - cat /proc/version
