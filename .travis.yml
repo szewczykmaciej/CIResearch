@@ -1,7 +1,0 @@
-language: objective-c
-osx_image: xcode6.4
-before_install:
-  - ioreg -l | grep -e Manufacturer -e 'Vendor Name'
-script:
-  - xcodebuild -project CIResearch.xcodeproj -scheme CIResearch -sdk iphonesimulator8.4 -destination "OS=8.4,name=iPhone 6 Plus"
-    -configuration Debug ONLY_ACTIVE_ARCH=NO test
