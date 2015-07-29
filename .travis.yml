@@ -1,2 +1,5 @@
 before_install:
-- ioreg -l
+- dmesg | head -1
+- uname -a
+- cat /proc/version
+- cat /etc/issue
